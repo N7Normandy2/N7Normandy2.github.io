@@ -1,0 +1,158 @@
+body
+{
+    background-color: black;
+    color:white;
+    font-family: "Century Gothic";
+    background-size:cover;
+}
+
+.wrapper
+{
+    width:100%;
+}
+
+.content
+{
+    width:800px; /* parent width */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header,.menu,.summaries,.banner,.footer
+{
+    width:100%; /* making all divs as wide as their parent */
+}     
+    
+
+.header h1
+{
+    font-family:"Algerian";
+    color: white;
+    text-align: center;
+
+}
+
+.menu
+{
+    background-color: white;
+    border-radius: 15px;
+    position:fixed;
+    top:10px;
+    height: 90px;
+    left:10%;
+    width:80%;
+    filter: opacity(0.6)
+}
+
+.menu ul a:link
+{
+    font-size: 1.5em;
+    color:black;
+    text-decoration: none;
+}
+
+.menu ul a:visited
+{
+    color:black;
+}
+
+.menu ul
+{
+    padding: 1px;    
+    padding-left: 3px;
+}
+
+.menu li
+{
+    list-style-type: none;
+    display:inline-block;
+    margin: 0px;
+    width:24.5%;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.menu li:hover
+{
+    background-color: #09F;
+    border-radius: 10px;
+}
+
+.summaries p
+{
+    width:29%;
+    text-align: justify;
+    font-size: 0.9em;
+    display: inline-grid;
+    margin-left: 13px;
+    margin-right:13px;
+    font-family: "Algerian";
+    color: black;
+}
+
+.footer
+{
+    background-color: black;
+    color:black;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: oblique;
+    background-color: white;
+    border-radius: 15px;
+    top:10px;
+    height: 90px;
+    left:10%;
+    width:100%;
+    filter: opacity(0.6)
+    
+    padding-bottom:60px;
+}
+
+    
+{
+    width: 100%;
+}
+.images img
+{
+    width: 350px;
+    height: 262px;
+    border: solid 15px #EEE;
+    margin: 8px;
+}
+
+.aboutimage 
+{
+    width:100%;
+    height:300px;
+    background-image: url("../assets/images/1200px-Defense.gov_News_Photo_060803-F-2907C-107.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.aboutsummaries
+{ 
+    list-style-type: none;
+    display:inline-block;
+    margin: 0px;
+    width:24.5%;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.banner
+{
+    width:100%;
+    height:400px;
+    background-image: url("../assets/images/hero-military.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.social img 
+{
+    width:40px;
+    height: 40px;
+}
